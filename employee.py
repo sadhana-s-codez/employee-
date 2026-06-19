@@ -51,4 +51,4 @@ try:
     else:
          print("Failed to fetch data:",response.status_code)
 except requests.exceptions.RequestException as e:
-     print("Request Failed:",e)
+     print("Request  Failed:",e)
